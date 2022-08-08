@@ -9,7 +9,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-.vuepress
+.temp
+.cache
 node_modules
 dist
 dist-ssr
