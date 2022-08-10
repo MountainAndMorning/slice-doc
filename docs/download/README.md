@@ -9,4 +9,4 @@
 <a href='https://www.jianguoyun.com/p/DQ2PjiIQ-MmzBhiXqtAEIAA'>Windows 10</a>
 
 下载使用
-<a href="/files/Slice3.0 manual.pdf" download>手册</a>
+<a href="/Slice3.0 manual.pdf" download>手册</a>
