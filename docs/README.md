@@ -3,7 +3,7 @@ home: true
 title: Home
 heroImage: /images/icon.png
 actions:
-  - text: 教程
+  - text: 简介
     link: /guide/
     type: primary
   - text: 下载
