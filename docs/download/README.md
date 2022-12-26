@@ -1,12 +1,12 @@
-# 下载
+# Download
 
-下载MacOS 苹果芯片版本
+Download MacOS Apple Silicon version
 
 <a href='https://www.jianguoyun.com/p/DahrmbwQ-MmzBhidqtAEIAA'>MacOS</a>
 
-下载Windows版本
+Download Windows version
 
 <a href='https://www.jianguoyun.com/p/DQ2PjiIQ-MmzBhiXqtAEIAA'>Windows 10</a>
 
-下载使用
-<a href="/Slice3.0 manual.pdf" download>手册</a>
+Download manual
+<a href="/Slice3.0 manual.pdf" download>Manual</a>
