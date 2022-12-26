@@ -1,9 +1,9 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
-  lang: 'zh-CN',
-  title: 'SLICE',
-  description: 'Slice 文档',
+  lang: 'EN',
+  title: 'TIMESlice',
+  description: 'TIMESlice manual',
   head: [
     ['link', { rel: 'icon', href: '/images/icon.png' }]
   ],
@@ -13,16 +13,5 @@ module.exports = {
 
     ],
     logo: '/images/icon.png',
-    sidebar: [
-      // SidebarItem
-      {
-        text: '简介',
-        link: '/guide/',
-      },
-      {
-        text: '下载',
-        link: '/download/',
-      },
-    ],
   }),
 }
