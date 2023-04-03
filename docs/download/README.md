@@ -2,13 +2,7 @@
 
 Download MacOS Apple Silicon version
 
-<a href='https://www.jianguoyun.com/p/DbbGq4IQ-MmzBhjniO4EIAA'>MacOS</a>
-
-
-Download Windows10 version
-
-<a href='https://www.jianguoyun.com/p/DafJW70Q-MmzBhji5O4EIAA'>Windows</a>
-
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v3.0.0/TIMESlice-3.0.0-arm64.dmg'>MacOS</a>
 
 
 Download manual
