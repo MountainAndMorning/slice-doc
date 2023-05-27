@@ -10,6 +10,9 @@ Download MacOS Apple Silicon version
 
 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v3.0.0/TIMESlice-3.0.0-arm64.dmg'>MacOS</a>
 
+Download Windows version
+
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v3.0.1/TIMESlice.Setup.3.0.1.exe'>Windows</a>
 
 Download manual
 
