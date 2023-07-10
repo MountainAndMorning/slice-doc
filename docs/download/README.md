@@ -6,9 +6,13 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 And insert this website location (https://slice-doc.netlify.app/) in your manuscript.
 
-Download MacOS Apple Silicon version v4.2.0 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.dmg'>MacOS</a>
+Download MacOS Apple Silicon version v4.2.0 
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.dmg'>地址一</a>
+<a href='https://pan.baidu.com/s/1wkWchNtp0_PWdlSuQBTRWg?pwd=8rj9'>地址二</a>
 
-Download Windows version v4.2.0 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.exe'>Windows</a>
+Download Windows version v4.2.0 
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.exe'>地址一</a>
+<a href='https://pan.baidu.com/s/10-syJP5F4QxLmya-JuWNsA?pwd=3iij'>地址二</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
