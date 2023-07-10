@@ -6,13 +6,25 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 And insert this website location (https://slice-doc.netlify.app/) in your manuscript.
 
-Download MacOS Apple Silicon version v4.1.0 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.1.0/TIMESlicePro_4.1.0.dmg'>MacOS</a>
+Download MacOS Apple Silicon version v4.2.0 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.dmg'>MacOS</a>
 
-Download Windows version v4.1.0 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.1.0/TIMESlicePro_4.1.0.exe'>Windows</a>
+Download Windows version v4.2.0 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.exe'>Windows</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
 # Update log
+
+## V4.2.0
+
+- Add more settings for the radiomics panel.
+- Add suppert for running radiomics in the background for parallel computation.
+- Add support for editing the Circle object in the contour module.
+- Add support for measuring the angle between the branches in the centerline module.
+- Add support for importing nii and nrrd format series image.
+- Fix the node idx bug in the centerline module.
+- Fix the inserting node bug in the centerline module.
+- Fix the wrong unit bug of the plaque length.
+- Improve the stability of the software.
 
 ## V4.1.0
 
