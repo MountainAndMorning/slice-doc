@@ -6,21 +6,27 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 And insert this website location (https://slice-doc.netlify.app/) in your manuscript.
 
-Download MacOS Apple Silicon version v4.2.0 
+Download MacOS Apple Silicon version v4.3.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.dmg'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.3.0/TIMESlicePro_4.3.0.dmg'>location one</a>
 
-<a href='https://pan.baidu.com/s/1wkWchNtp0_PWdlSuQBTRWg?pwd=8rj9'>location two</a>
+<a href='https://pan.baidu.com/s/1K7Z4WAMUqmLWB17RPbX7-A?pwd=qa8r'>location two (code:qa8r)</a>
 
-Download Windows version v4.2.0 
+Download Windows version v4.3.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.2.0/TIMESlicePro_4.2.0.exe'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.3.0/TIMESlicePro_4.3.0.exe'>location one</a>
 
-<a href='https://pan.baidu.com/s/10-syJP5F4QxLmya-JuWNsA?pwd=3iij'>location two</a>
+<a href='https://pan.baidu.com/s/1dCyDZo-UjpIMToc43V590w?pwd=6wiw'>location two (code:6wiw)</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
 # Update log
+
+## V4.3.0
+- Add the new Tube module to replace the Contour module for coronary artery plaque analysing.
+- Add the FAI function in the plaque related information list.
+- Add support for exporting the study.
+- Improve the performance of the Centerline module especially for the very long vessel.
 
 ## V4.2.0
 
