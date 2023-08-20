@@ -12,11 +12,17 @@ Download MacOS Apple Silicon version v4.3.0
 
 <a href='https://pan.baidu.com/s/1K7Z4WAMUqmLWB17RPbX7-A?pwd=qa8r'>location two (code:qa8r)</a>
 
+Download MacOS Intel version v4.3.0 
+
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.3.0/TIMESlicePro_4.3.0.Intel.dmg'>location one</a>
+
+<a href='https://pan.baidu.com/s/1qLUku9hG6EunXnR-dt1vYQ?pwd=543p'>location two (code:543p)</a>
+
 Download Windows version v4.3.0 
 
 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.3.0/TIMESlicePro_4.3.0.exe'>location one</a>
 
-<a href='https://pan.baidu.com/s/1dCyDZo-UjpIMToc43V590w?pwd=6wiw'>location two (code:6wiw)</a>
+<a href='https://pan.baidu.com/s/1ciF8xiD7eH9aMNRXhMPnvg?pwd=j9re'>location two (code:j9re)</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
