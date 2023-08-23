@@ -26,6 +26,14 @@ Download Windows version v4.3.0
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
+For Windows user, if you encounter error as below:
+
+![](/images/error.png)
+
+You should patch your system by installing this <a href='https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170'>Redistributable software</a>.
+A copy of this software is also provided <a href='/VC_redist.x64.exe'>here</a>.
+After install this software and restart your computer, you need reinstall TIMESlice and the error should disappear.
+
 # Update log
 
 ## V4.3.0
