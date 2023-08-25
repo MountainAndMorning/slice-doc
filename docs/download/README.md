@@ -22,7 +22,7 @@ Download Windows version v4.4.0
 
 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.4.0/TIMESlicePro_4.4.0.exe'>location one</a>
 
-<a href='https://pan.baidu.com/s/18LBlLyIUBNwKlqIwRYJnQQ?pwd=yn9e'>location two (code:yn9e)</a>
+<a href='https://pan.baidu.com/s/1_mpv5Lt2D2TVNESVkoi_ZQ?pwd=1qfc'>location two (code:1qfc)</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
