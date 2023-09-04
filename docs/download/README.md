@@ -6,17 +6,23 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 And insert this website location (https://slice-doc.netlify.app/) in your manuscript.
 
-Download MacOS Apple Silicon version v4.4.0 
+Connect the developer by the WeChat QR code or the email 18207481578@163.com to get a Pro license.
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.4.0/TIMESlicePro_4.4.0.dmg'>location one</a>
+![](/images/QR.png)
 
-<a href='https://pan.baidu.com/s/1OZdIijjibENWnqRzxRfFIw?pwd=4bd6'>location two (code:4bd6)</a>
+Download MacOS Apple Silicon version v4.5.0 
+
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.5.0/TIMESlicePro_4.5.0.dmg'>location one</a>
+
+<a href='https://pan.baidu.com/s/1qike80D76wj51d1UFtE7yQ?pwd=5hxn'>location two (code:5hxn)</a>
 
 Download MacOS Intel version v4.3.0 
 
 <a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.3.0/TIMESlicePro_4.3.0.Intel.dmg'>location one</a>
 
 <a href='https://pan.baidu.com/s/1qLUku9hG6EunXnR-dt1vYQ?pwd=543p'>location two (code:543p)</a>
+
+Download Windows version v4.5.0 (Coming soon)
 
 Download Windows version v4.4.0 
 
@@ -35,6 +41,14 @@ A copy of this software is also provided <a href='/VC_redist.x64.exe'>here</a>.
 After install this software and restart your computer, you need reinstall TIMESlice and the error should disappear.
 
 # Update log
+
+## V4.5.0
+- Improve the Island seg tool.
+- Improve the Lasso seg tool.
+- Add the snap function for saving the state of the seg.
+- Add a new epicardium seg model for non contrast CT.
+- Improve the stability of the activation module. If your activation code becomes invalid, connect the developer to get a new one.
+- Fix the importing problem for some Dicoms.
 
 ## V4.4.0
 - Add the Island seg tool.
