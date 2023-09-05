@@ -22,13 +22,12 @@ Download MacOS Intel version v4.3.0
 
 <a href='https://pan.baidu.com/s/1qLUku9hG6EunXnR-dt1vYQ?pwd=543p'>location two (code:543p)</a>
 
-Download Windows version v4.5.0 (Coming soon)
 
-Download Windows version v4.4.0 
+Download Windows version v4.5.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.4.0/TIMESlicePro_4.4.0.exe'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.5.0/TIMESlicePro_4.5.0.exe'>location one</a>
 
-<a href='https://pan.baidu.com/s/1_mpv5Lt2D2TVNESVkoi_ZQ?pwd=1qfc'>location two (code:1qfc)</a>
+
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
