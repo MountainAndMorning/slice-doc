@@ -10,24 +10,24 @@ Connect the developer by the WeChat QR code or the email 18207481578@163.com to 
 
 ![](/images/QR.png)
 
-Download MacOS Apple Silicon version v4.5.0 
+Download MacOS Apple Silicon version v4.6.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.5.0/TIMESlicePro_4.5.0.dmg'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.dmg'>location one</a>
 
-<a href='https://pan.baidu.com/s/1qike80D76wj51d1UFtE7yQ?pwd=5hxn'>location two (code:5hxn)</a>
+<a href='https://pan.baidu.com/s/1JjfJIq5jP45uvC-xqwA87A?pwd=5cc1'>location two (code:5cc1)</a>
 
-Download MacOS Intel version v4.3.0 
+Download MacOS Intel version v4.6.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.3.0/TIMESlicePro_4.3.0.Intel.dmg'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.Intel.dmg'>location one</a>
 
-<a href='https://pan.baidu.com/s/1qLUku9hG6EunXnR-dt1vYQ?pwd=543p'>location two (code:543p)</a>
+<a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>location two (code:xqmu)</a>
 
 
-Download Windows version v4.5.0 
+Download Windows version v4.6.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.5.0/TIMESlicePro_4.5.0.exe'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.exe'>location one</a>
 
-<a href='https://pan.baidu.com/s/15XrQBIhrR-DzyJ71MSYdUA?pwd=639n'>location two (code:639n)</a>
+<a href='https://pan.baidu.com/s/18L8BJX5jY-63bKg_3hdTxw?pwd=ap7t'>location two (code:ap7t)</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
@@ -40,6 +40,10 @@ A copy of this software is also provided <a href='/VC_redist.x64.exe'>here</a>.
 After install this software and restart your computer, you need reinstall TIMESlice and the error should disappear.
 
 # Update log
+
+## V4.6.0
+- Add the export log menu.
+- Add the project analyzing module.
 
 ## V4.5.0
 - Improve the Island seg tool.
