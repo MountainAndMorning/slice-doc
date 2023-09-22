@@ -10,11 +10,11 @@ Connect the developer by the WeChat QR code or the email 18207481578@163.com to 
 
 ![](/images/QR.png)
 
-Download MacOS Apple Silicon version v4.6.0 
+Download MacOS Apple Silicon version v4.7.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.dmg'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.dmg'>location one</a>
 
-<a href='https://pan.baidu.com/s/1JjfJIq5jP45uvC-xqwA87A?pwd=5cc1'>location two (code:5cc1)</a>
+<a href='https://pan.baidu.com/s/1QKJ65AB6wH2WiI4hAudeXQ?pwd=k9qc'>location two (code:k9qc)</a>
 
 Download MacOS Intel version v4.6.0 
 
@@ -23,11 +23,11 @@ Download MacOS Intel version v4.6.0
 <a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>location two (code:xqmu)</a>
 
 
-Download Windows version v4.6.0 
+Download Windows version v4.7.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.exe'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.exe'>location one</a>
 
-<a href='https://pan.baidu.com/s/18L8BJX5jY-63bKg_3hdTxw?pwd=ap7t'>location two (code:ap7t)</a>
+<a href=' https://pan.baidu.com/s/1ORGPROBWPAtPQsvAhDWA7g?pwd=pqyr'>location two (code:pqyr)</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
@@ -40,6 +40,14 @@ A copy of this software is also provided <a href='/VC_redist.x64.exe'>here</a>.
 After install this software and restart your computer, you need reinstall TIMESlice and the error should disappear.
 
 # Update log
+
+## V4.7.0
+- Add opacity selector for segmentation.
+- Add cross marker for each seg view.
+- Add screenshot function for the seg module.
+- Add switch background function for the seg module.
+- Add a new epicardium seg model for pulmonary plain CT.
+- Improve the lasso tool.
 
 ## V4.6.0
 - Add the export log menu.
