@@ -27,3 +27,6 @@ dist-ssr
 
 release
 .vscode/.debug.env
+
+.vitepress/cache
+.vitepress/dist
