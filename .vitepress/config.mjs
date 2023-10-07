@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "TIMESlice manual",
+  srcDir: 'docs',
   description: "Everything about TIMESlice",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
