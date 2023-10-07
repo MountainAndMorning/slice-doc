@@ -5,21 +5,21 @@ layout: home
 hero:
   name: "TIMESlice manual"
   text: "Everything about TIMESlice"
-  tagline: My great project tagline
+  tagline: TIMESlice
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Manual
+      link: /manual
     - theme: alt
-      text: API Examples
+      text: Download
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Automatic
+    details: 
+  - title: Easy to use
+    details: 
+  - title: Powerful
+    details: 
 ---
 
