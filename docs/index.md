@@ -12,7 +12,7 @@ hero:
       link: /manual
     - theme: alt
       text: Download
-      link: /api-examples
+      link: /download
 
 features:
   - title: Automatic
