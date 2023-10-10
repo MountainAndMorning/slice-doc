@@ -4,6 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TIMESlice 手册",
   srcDir: 'docs',
+  vite: {     // <=== insert this section
+    ssr: {
+      noExternal: ["vuetify"]
+    }
+  },
   description: "关于TIMESlice的一切",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
