@@ -20,17 +20,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '手册',
-        items: [
-          { text: '简介', link: '/manual/index' },
-          { text: '数据管理', link: '/manual/dataManage' }
-        ]
+        text: '简介', link: '/manual/index'
       },
       {
+        text: '数据管理',
         items: [
-          { text: '下载', link: '/download' }
+          { text: '数据结构', link: '/manual/dataManage' },
+          { text: '影像导入', link: '/manual/importScan' }
         ]
-      }
+      },
+      { text: '下载', link: '/download' }
     ],
 
     socialLinks: [

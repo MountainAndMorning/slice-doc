@@ -5,7 +5,7 @@ import { aliases, mdi } from 'vuetify/iconsets/mdi-svg'
 import '@mdi/font/css/materialdesignicons.css'
 import { createVuetify } from "vuetify";
 import * as components from 'vuetify/components'
-
+import Steps from '../components/Steps.vue'
 const vuetify = createVuetify({
   components,
   icons: {
@@ -16,5 +16,6 @@ export default {
   ...DefaultTheme,
   enhanceApp({ app, siteData }) {
     app.use(vuetify);
+    app.component('Steps', Steps)
   },
 };
