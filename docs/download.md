@@ -1,43 +1,40 @@
-# Download
+# 下载
 
-Please cite the software by this paper:
+如果这个软件对你的论文有帮助请引用如下文献:
 
 Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volume." Medical Physics 48.8 (2021): 4279-4290.
 
-And insert this website location (https://slice-doc.netlify.app/) in your manuscript.
+并将软件下载地址 (https://slice-doc.netlify.app/) 插入到文献合适位置.
 
-Connect the developer by the WeChat QR code or the email 18207481578@163.com to get a Pro license.
+微信扫描如下二维码或用邮件（18207481578@163.com）开发者获得pro许可.
 
 ![](/images/QR.png)
 
-Download MacOS Apple Silicon version v4.7.0 
+下载 MacOS Apple Silicon 版本 v4.7.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.dmg'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.dmg'>下载地址一</a>
 
-<a href='https://pan.baidu.com/s/1QKJ65AB6wH2WiI4hAudeXQ?pwd=k9qc'>location two (code:k9qc)</a>
+<a href='https://pan.baidu.com/s/1QKJ65AB6wH2WiI4hAudeXQ?pwd=k9qc'>备用下载地址 (code:k9qc)</a>
 
-Download MacOS Intel version v4.6.0 
+下载 MacOS Intel 版本 v4.6.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.Intel.dmg'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.Intel.dmg'>下载地址一</a>
 
-<a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>location two (code:xqmu)</a>
+<a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>备用下载地址 (code:xqmu)</a>
 
 
-Download Windows version v4.7.0 
+下载 Windows version v4.7.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.exe'>location one</a>
+<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.exe'>下载地址一</a>
 
-<a href=' https://pan.baidu.com/s/1ORGPROBWPAtPQsvAhDWA7g?pwd=pqyr'>location two (code:pqyr)</a>
+<a href=' https://pan.baidu.com/s/1ORGPROBWPAtPQsvAhDWA7g?pwd=pqyr'>备用下载地址 (code:pqyr)</a>
 
 <a href='https://b23.tv/9gyl6Q6'>Tutorial</a>
 
-For Windows user, if you encounter error as below:
+对Windows用户，如果你遇到下述问题说明你需要安装Windows<a href='https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170'>系统补丁</a>，本站也拷贝了一份该<a href='/VC_redist.x64.exe'>补丁</a>，供用户直接下载使用。
 
 ![](/images/error.png)
 
-You should patch your system by installing this <a href='https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170'>Redistributable software</a>.
-A copy of this software is also provided <a href='/VC_redist.x64.exe'>here</a>.
-After install this software and restart your computer, you need reinstall TIMESlice and the error should disappear.
 
 # Update log
 

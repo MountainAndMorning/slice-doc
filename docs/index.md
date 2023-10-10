@@ -3,23 +3,26 @@
 layout: home
 
 hero:
-  name: "TIMESlice manual"
-  text: "Everything about TIMESlice"
-  tagline: TIMESlice
+  name: "TIMESlice手册"
+  text: "关于TIMESlice的一切"
+  tagline: v4.7.0 
+  image:
+    src: /images/icon.png
+    alt: VitePress
   actions:
     - theme: brand
-      text: Manual
-      link: /manual
+      text: 手册
+      link: /manual/index
     - theme: alt
-      text: Download
+      text: 下载
       link: /download
 
 features:
-  - title: Automatic
+  - title: 自动
     details: 
-  - title: Easy to use
+  - title: 简洁
     details: 
-  - title: Powerful
+  - title: 强大
     details: 
 ---
 
