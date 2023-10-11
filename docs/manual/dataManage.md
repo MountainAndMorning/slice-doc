@@ -16,10 +16,10 @@ TIMESlice采用了以患者为核心的策略来管理数据，patientId是所�
 
 <Steps
 :images="[
-'/images/importScan/manager.png',
-'/images/importScan/folder.png',
-'/images/importScan/patient.png',
-'/images/importScan/search.png'
+'/images/dataManage/manager.png',
+'/images/dataManage/folder.png',
+'/images/dataManage/patient.png',
+'/images/dataManage/search.png'
 ]"
 :titles="[
 '选择Manager筛选对应的Folder',

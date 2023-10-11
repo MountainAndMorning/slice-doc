@@ -19,7 +19,6 @@ const idx = ref(0)
             v-for="(image, i) in images"
             :key="i"
             :src="image"
-            cover
             transition="v-fab-transition"
         >
         </v-carousel-item>
