@@ -23,11 +23,11 @@ TIMESlice目前支持三种影像格式的导入，一是Dicom格式，另外两
 关于Label的更多信息参见[标签管理](./labelManage)
 :::
 
-::: warning 注意
+::: warning 警告
 对所选文件夹，TIMESlice会扫描其中包含的所有文件，并在其中找寻Dicom，因此建议每次所选的文件夹中包含的Study数量不要超过10个。
 :::
 
-::: info 信息
+::: info 注意
 关于Study需要解释一下。当一个Patient进行一次影像检查时设备会创建一个Study用来组织本次检查所有图像。通常一个检查进行多次影像扫描，每次则对应一个Series（TIMESlice中称其为Serial），而每次扫描又会产生多个图像，其中每个图像称为Slice。所以通常影像上具有这样的结构 <v-chip text="Patient" size="x-small" color="yellow"/>-<v-chip text="Study" size="x-small" color="yellow"/>-<v-chip text="Serial" size="x-small" color="yellow"/>-<v-chip text="Slice" size="x-small" color="yellow"/>.而这里的Slice一般情况下就对应于一个Dicom文件，其通常以`.dcm`,`.dicom`作为文件后缀，有时也有没有后缀名的情况出现。
 :::
 
@@ -51,7 +51,7 @@ TIMESlice目前支持三种影像格式的导入，一是Dicom格式，另外两
 ]"
 />
 
-::: info 信息
+::: info 注意
 如[数据管理](./dataManage)中所说，Study有四种类型，只有Scan<v-icon size='small' icon="mdi-image-multiple" color='yellow'/>类型的Study才允许导入图像。
 :::
 
@@ -71,6 +71,6 @@ TIMESlice目前支持三种影像格式的导入，一是Dicom格式，另外两
 * 选择Study类型
 * 点击创建<v-icon size='small' icon="mdi-play-circle-outline" color='green'/>按钮
 
-::: info 信息
+::: info 注意
 TIMESlice中不允许空的Patient，因此我们在创建Patient是必须同时创建一个Study。同时，当一个Patient的所有Study都被删除后，TIMESlice会自动将该患者也删除。
 :::

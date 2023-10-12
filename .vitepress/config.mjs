@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TIMESlice 手册",
+  title: "TIMESlice",
   srcDir: 'docs',
   vite: {     // <=== insert this section
     ssr: {
@@ -27,6 +27,7 @@ export default defineConfig({
         items: [
           { text: '数据结构', link: '/manual/dataManage' },
           { text: '影像导入', link: '/manual/importScan' },
+          { text: '表格导入', link: '/manual/importTable' },
           { text: '标签管理', link: '/manual/labelManage' }
         ]
       },
