@@ -23,14 +23,16 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 <a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>备用下载地址 (code:xqmu)</a>
 
 
-## 下载 Windows version v4.7.0 
+## 下载 Windows version v4.8.0 
 
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.7.0/TIMESlicePro_4.7.0.exe'>下载地址一</a>
+<a href='https://www.jianguoyun.com/p/DYSZ7AsQ-MmzBhimsp4FIAA'>地址一：坚果云</a>
 
-<a href=' https://pan.baidu.com/s/1ORGPROBWPAtPQsvAhDWA7g?pwd=pqyr'>备用下载地址 (code:pqyr)</a>
+<a href='https://pan.baidu.com/s/1njxM_bz2j5chk68j39Bovw?pwd=ab4j'>地址二：百度云</a>
 
 ## 视频教程
 <a href='https://b23.tv/9gyl6Q6'>bilibili</a>
+
+对苹果用户，如果提示软件已损坏...请参看这个<a href='https://zhuanlan.zhihu.com/p/617123498?utm_id=0&utm_source=wechat_session&utm_medium=social&s_r=0'>教程</a>解决。
 
 对Windows用户，如果你遇到下述问题说明你需要安装Windows<a href='https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170'>系统补丁</a>，本站也拷贝了一份该<a href='/VC_redist.x64.exe'>补丁</a>，供用户直接下载使用。
 
