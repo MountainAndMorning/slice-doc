@@ -10,11 +10,11 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon 版本 v4.8.0 
+## 下载 MacOS Apple Silicon 版本 v4.9.0 
 
-<a href='https://www.jianguoyun.com/p/DZRXaXcQ-MmzBhjTmp4FIAA'>地址一：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DV1FJoUQ-MmzBhjJp6IFIAA>地址一：坚果云</a>
 
-<a href='https://pan.baidu.com/s/10GG94sylsdbhagzd2WrTcg?pwd=axtq'>地址二：百度云</a>
+<a href='https://pan.baidu.com/s/1Xvdasib4QrKHlV54J-nSsw?pwd=x93i>地址二：百度云</a>
 
 ## 下载 MacOS Intel 版本 v4.6.0 
 
@@ -22,6 +22,7 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 <a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>备用下载地址 (code:xqmu)</a>
 
+## Windows version v4.9.0 (Coming soon) 
 
 ## 下载 Windows version v4.8.0 
 
@@ -40,6 +41,19 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 
 # Update log
+
+## V4.9.0
+- Add support for saving serial meta information to study.
+- Add MPR related function in seg module.
+- Add plaque length information in the section inspector.
+- Add centerline length information in the centerline inspector.
+- Add progress bar for the currently processing case.
+
+## V4.8.0
+- Make the auto seg tool working on the background.
+- Improve the speed of the auto seg tool on macOS by utilizing the GPU.
+- Add support for save some basic seg information.
+- Add support for computing the area of each seg slice.
 
 ## V4.7.0
 - Add opacity selector for segmentation.
