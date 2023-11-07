@@ -14,7 +14,7 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 <a href='https://www.jianguoyun.com/p/DV1FJoUQ-MmzBhjJp6IFIAA>地址一：坚果云</a>
 
-<a href='https://pan.baidu.com/s/1Xvdasib4QrKHlV54J-nSsw?pwd=x93i>地址二：百度云</a>
+<a href='https://pan.baidu.com/s/1Wrqghc6viz8VyxgJcSmVOA?pwd=y96q>地址二：百度云</a>
 
 ## 下载 MacOS Intel 版本 v4.6.0 
 
@@ -22,13 +22,13 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 <a href='https://pan.baidu.com/s/1z2egH6r472qLUoLLifaOBA?pwd=xqmu'>备用下载地址 (code:xqmu)</a>
 
-## Windows version v4.9.0 (Coming soon) 
 
-## 下载 Windows version v4.8.0 
+## 下载 Windows version v4.9.0 
 
-<a href='https://www.jianguoyun.com/p/DYSZ7AsQ-MmzBhimsp4FIAA'>地址一：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DVxD2-QQ-MmzBhi1vaIFIAA'>地址一：坚果云</a>
 
-<a href='https://pan.baidu.com/s/1njxM_bz2j5chk68j39Bovw?pwd=ab4j'>地址二：百度云</a>
+<a href='https://pan.baidu.com/s/1jjuZCFgBsQUj9ee_mQAhlw?pwd=dqhr'>地址二：百度云</a>
+
 
 ## 视频教程
 <a href='https://b23.tv/9gyl6Q6'>bilibili</a>
