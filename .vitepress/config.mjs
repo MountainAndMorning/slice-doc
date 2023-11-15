@@ -20,7 +20,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '简介', link: '/manual/index'
+        text: '简介', link: '/manual/index',
+      },
+      {
+        text: '软件激活', link: '/manual/activation',
       },
       {
         text: '数据管理',
