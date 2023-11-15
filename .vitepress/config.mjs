@@ -9,10 +9,13 @@ export default defineConfig({
       noExternal: ["vuetify"]
     }
   },
-  description: "关于TIMESlice的一切",
+  description: "医学影像管理与分析平台",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/images/icon.png',
+    footer: {
+      message: 'Powered by Key Laboratory of Cardiovascular Imaging and Research of Liaoning Province, CHINA.'
+    },
     nav: [
       { text: '主页', link: '/' },
       { text: '下载', link: '/download' }
