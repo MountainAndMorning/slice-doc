@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "TIMESlice手册"
   text: "关于TIMESlice的一切"
-  tagline: v4.9.0 
+  tagline: v4.10.0 
   image:
     src: /images/icon.png
     alt: VitePress
