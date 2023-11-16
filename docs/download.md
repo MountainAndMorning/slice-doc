@@ -14,7 +14,7 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 <a href='https://www.jianguoyun.com/p/DagvBhMQ-MmzBhi-8aMFIAA'>地址一：坚果云</a>
 
-<a href='https://pan.baidu.com/s/13OnV_Bv6VsjF_W1TDIcZVA?pwd=2e66'>地址二：百度云</a>
+<a href='https://pan.baidu.com/s/13XqnA2uiNWqS5wpB8avoIQ?pwd=9vpx'>地址二：百度云</a>
 
 ## 下载 MacOS Intel 版本 v4.6.0 
 
