@@ -14,7 +14,7 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 <a href='https://www.jianguoyun.com/p/DSwyLdcQ-MmzBhjFw6UFIAA'>地址一：坚果云</a>
 
-<a href='https://pan.baidu.com/s/1qmYKtz_ZeSRt_GVNAKDSjw?pwd=g6sp'>地址二：百度云</a>
+<a href='https://pan.baidu.com/s/1LZS32Di729jXoA7l7Jmb_g?pwd=nraw'>地址二：百度云</a>
 
 ## 下载 MacOS Intel 版本 v4.6.0 
 
@@ -27,7 +27,7 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 
 <a href='https://www.jianguoyun.com/p/Dctgv24Q-MmzBhjGw6UFIAA'>地址一：坚果云</a>
 
-<a href='https://pan.baidu.com/s/1Ktu9m5FAYZGWyU2DHshTUQ?pwd=9dhx'>地址二：百度云</a>
+<a href='https://pan.baidu.com/s/1H1QPRXgN5I5yvWg3oWERRw?pwd=qees'>地址二：百度云</a>
 
 
 ## 视频教程
@@ -46,6 +46,7 @@ Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volu
 - Add image information for the Loop tool.
 - Add Lasso tool in the MPR mode.
 - Add Draw tool in the Tube module.
+- Optimize the snap function in the Seg module.
 
 ## V4.10.0
 - Add more tools to quantify image.
