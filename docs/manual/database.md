@@ -2,7 +2,7 @@
 
 软件激活后还需要选择数据库用于存储软件运行过程中的相关数据。
 
-![](/images/activation/addDatabase.png)
+![](/images/database/addDatabase.png)
 
 * 点击左上角<v-icon size='small' icon="mdi-time-lapse" color='yellow'/>按钮打开数据库管理窗口
 * 点击<v-icon size='small' icon="mdi-plus" color='yellow'/>在弹出的对话框中选择一个文件夹用于存放数据库文件，数据库文件是一个名为TIMESlice.db的文件夹，请将其视为一个整体，勿手动更改其中内容，否则会使数据库崩溃
@@ -11,7 +11,7 @@
 * 对于当前未加载的数据库，可以点按工具栏中的<v-icon size='small' icon="mdi-arrow-up-circle-outline" color='yellow'/>按钮选择文件夹，将该数据库导入此位置，请目标位置有足够空间存放数据库
 * 也可以点按工具栏中的<v-icon size='small' icon="mdi-arrow-down-circle-outline" color='yellow'/>按钮选择TIMESlice.db文件导入该数据库
 
-![](/images/activation/disconnect.png)
+![](/images/database/disconnect.png)
 
 * 选择当前加载的数据库条目
 * 点按<span style="color:red">DISCONNECT</span>按钮断开数据库连接，未连接的数据库可以倍导出
