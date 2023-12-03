@@ -31,6 +31,7 @@ export default defineConfig({
       {
         text: '数据管理',
         items: [
+          { text: '数据库管理', link: '/manual/database' },
           { text: '数据结构', link: '/manual/dataManage' },
           { text: '影像导入', link: '/manual/importScan' },
           { text: '表格导入', link: '/manual/importTable' },
