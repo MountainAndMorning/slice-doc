@@ -4,6 +4,8 @@
 
 Li, Xiaogang, et al. "Automatic quantification of epicardial adipose tissue volume." Medical Physics 48.8 (2021): 4279-4290.
 
+Li X, Ji L, Zhang R, et al. COACT: Coronary artery centerline tracker. Med. Phys.. 2023;e16873. https://doi.org/10.1002/mp.16873.
+
 并将软件下载地址 (https://slice-doc.netlify.app/) 插入到文献合适位置.
 
 微信扫描如下二维码或用邮件（18207481578@163.com）开发者获得pro许可.
