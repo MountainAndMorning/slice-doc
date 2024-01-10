@@ -12,24 +12,14 @@ Li X, Ji L, Zhang R, et al. COACT: Coronary artery centerline tracker. Med. Phys
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon 版本 v4.11.0 
+## 下载 MacOS Apple Silicon 版本 v4.12.0-alpha
 
-<a href='https://www.jianguoyun.com/p/DSwyLdcQ-MmzBhjFw6UFIAA'>地址：坚果云</a>
-
-
-
-## 下载 MacOS Intel 版本 v4.6.0 
-
-<a href='https://github.com/MountainAndMorning/EATSeg/releases/download/v4.6.0/TIMESlicePro_4.6.0.Intel.dmg'>下载地址一</a>
+<a href='https://www.jianguoyun.com/p/DbJ7FJwQ-MmzBhjd660FIAA'>地址：坚果云</a>
 
 
+## 下载 Windows version v4.12.0-alpha
 
-
-## 下载 Windows version v4.11.0 
-
-<a href='https://www.jianguoyun.com/p/Dctgv24Q-MmzBhjGw6UFIAA'>地址：坚果云</a>
-
-
+Coming soon.
 
 
 ## 视频教程
