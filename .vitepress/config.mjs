@@ -38,6 +38,15 @@ export default defineConfig({
           { text: '标签管理', link: '/manual/labelManage' }
         ]
       },
+      {
+        text: '动物园',
+        link: '/manual/model',
+        items: [
+          { text: '心外膜脂肪分割', link: '/manual/pericardiumModel' },
+          { text: '冠脉中心线追踪', link: '/manual/centerlineModel' },
+          { text: '冠脉轮廓识别', link: '/manual/contourModel' }
+        ]
+      },
       { text: '下载', link: '/download' }
     ],
 
