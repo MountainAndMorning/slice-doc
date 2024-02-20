@@ -12,21 +12,20 @@ Li X, Ji L, Zhang R, et al. COACT: Coronary artery centerline tracker. Med. Phys
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon 版本 v4.12.0
+## 下载 MacOS Apple Silicon 版本 v4.13.0
 
-<a href='https://www.jianguoyun.com/p/DbJ7FJwQ-MmzBhjd660FIAA'>地址：坚果云</a>
-<a href='https://pan.baidu.com/s/1teT63VsD2h4SJO7AKSchyg?pwd=fqss'>地址：百度云</a>
+<a href='https://www.jianguoyun.com/p/DenHDdUQ-MmzBhj888IFIAA'>地址：坚果云</a>
 
-## 下载 Windows version v4.12.0
+## 下载 Windows version v4.13.0
 
-<a href='https://www.jianguoyun.com/p/Da2UiH0Q-MmzBhiWha4FIAA'>地址：坚果云</a>
-<a href='https://pan.baidu.com/s/1-EF3LA7bKfDyVyNsrcNzOA?pwd=v628'>地址：百度云</a>
+<a href='https://www.jianguoyun.com/p/DfpW89MQ-MmzBhiB9MIFIAA'>地址：坚果云</a>
 
 ## 下载人工智能模型
 
 [模型动物园](./manual/model)
 
 ## 视频教程
+
 <a href='https://b23.tv/9gyl6Q6'>bilibili</a>
 
 对苹果用户，如果提示软件已损坏...请参看这个<a href='https://zhuanlan.zhihu.com/p/617123498?utm_id=0&utm_source=wechat_session&utm_medium=social&s_r=0'>教程</a>解决。
@@ -37,6 +36,12 @@ Li X, Ji L, Zhang R, et al. COACT: Coronary artery centerline tracker. Med. Phys
 
 
 # Update log
+
+## V4.13.0
+- Add color manager for patient.
+- Adjust the view layout of the centerline module. 
+- Support multi rows for each patient in project module.
+- Fix some bugs.
 
 ## V4.12.0
 - Add support for png and jpg image.
