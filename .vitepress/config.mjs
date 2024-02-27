@@ -47,6 +47,14 @@ export default defineConfig({
           { text: '冠脉轮廓识别', link: '/manual/contourModel' }
         ]
       },
+      {
+        text: '图像分割',
+        link: '/segmentation/segmentation',
+        items: [
+          { text: 'seg管理', link: '/segmentation/manageSegmentation' },
+          { text: 'seg编辑', link: '/segmentation/editSegmentation' },
+        ]
+      },
       { text: '下载', link: '/download' }
     ],
 
