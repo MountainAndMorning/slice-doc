@@ -12,13 +12,13 @@ Li X, Ji L, Zhang R, et al. COACT: Coronary artery centerline tracker. Med. Phys
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon 版本 v4.15.0
+## 下载 MacOS Apple Silicon 版本 v4.16.0
 
-<a href='https://www.jianguoyun.com/p/DRNc5zEQ-MmzBhiXn9MFIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DfzSmSwQ-MmzBhjR2tcFIAA'>地址：坚果云</a>
 
-## 下载 Windows version v4.15.0
+## 下载 Windows version v4.16.0
 
-<a href='https://www.jianguoyun.com/p/DQWQBQwQ-MmzBhjt7MMFIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DaiAAX4Q-MmzBhjS2tcFIAA'>地址：坚果云</a>
 
 ## 下载人工智能模型
 
@@ -36,6 +36,11 @@ Li X, Ji L, Zhang R, et al. COACT: Coronary artery centerline tracker. Med. Phys
 
 
 # Update log
+
+## V4.16.0
+- Show pixel value at cursor on each view.
+- Support capturing overlay content on each view.
+- Add PAT and Plaque content in Tube module.
 
 ## V4.15.0
 - Improve the seg model manager.

@@ -42,7 +42,7 @@ export default defineConfig({
         text: '动物园',
         link: '/manual/model',
         items: [
-          { text: '心外膜脂肪分割', link: '/manual/pericardiumModel' },
+          { text: '图像分割', link: '/manual/pericardiumModel' },
           { text: '冠脉中心线追踪', link: '/manual/centerlineModel' },
           { text: '冠脉轮廓识别', link: '/manual/contourModel' }
         ]
