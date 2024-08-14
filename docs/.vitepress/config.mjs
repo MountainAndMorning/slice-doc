@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/slice/",
+  base: "/slice-doc/",
   title: "TIMESlice",
   srcDir: 'docs',
   vite: {     // <=== insert this section
