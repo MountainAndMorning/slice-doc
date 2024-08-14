@@ -3,26 +3,23 @@
 layout: home
 
 hero:
-  name: "TIMESlice"
-  text: "医学影像管理与分析平台"
-  tagline: v4.16.0 
-  image:
-    src: /images/icon.png
-    alt: VitePress
+  name: "TIMESlice Doc"
+  text: "TIMESlice document"
+  tagline: My great project tagline
   actions:
     - theme: brand
-      text: 手册
-      link: /manual/index
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: 下载
-      link: /download
+      text: API Examples
+      link: /api-examples
 
 features:
-  - title: 自动
-    details: 
-  - title: 简洁
-    details: 
-  - title: 强大
-    details: 
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

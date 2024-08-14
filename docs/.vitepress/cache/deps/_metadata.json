@@ -1,52 +1,37 @@
 {
-  "hash": "6873171c",
-  "configHash": "7d279c99",
-  "lockfileHash": "9dcefc67",
-  "browserHash": "99a4018e",
+  "hash": "8fb5351c",
+  "configHash": "57a49246",
+  "lockfileHash": "bba8c911",
+  "browserHash": "e358865a",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "cdbac536",
+      "fileHash": "73b95425",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "3d522bc0",
+      "fileHash": "0ffafc2c",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "f8321916",
+      "fileHash": "f7c93e5c",
       "needsInterop": false
     },
-    "vuetify/iconsets/mdi-svg": {
-      "src": "../../../../node_modules/vuetify/lib/iconsets/mdi-svg.mjs",
-      "file": "vuetify_iconsets_mdi-svg.js",
-      "fileHash": "6aad6532",
-      "needsInterop": false
-    },
-    "vuetify": {
-      "src": "../../../../node_modules/vuetify/lib/framework.mjs",
-      "file": "vuetify.js",
-      "fileHash": "e87f4f0b",
-      "needsInterop": false
-    },
-    "vuetify/components": {
-      "src": "../../../../node_modules/vuetify/lib/components/index.mjs",
-      "file": "vuetify_components.js",
-      "fileHash": "c080e710",
+    "@theme/index": {
+      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
+      "file": "@theme_index.js",
+      "fileHash": "8698975a",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-JUBTXS7C": {
-      "file": "chunk-JUBTXS7C.js"
-    },
-    "chunk-CKUB4MVB": {
-      "file": "chunk-CKUB4MVB.js"
+    "chunk-LJXWWIDK": {
+      "file": "chunk-LJXWWIDK.js"
     },
     "chunk-5K23BRP6": {
       "file": "chunk-5K23BRP6.js"
