@@ -17,7 +17,7 @@ import {
   unref,
   warn,
   watchEffect
-} from "./chunk-G3CMYKT2.js";
+} from "./chunk-5K23BRP6.js";
 
 // node_modules/vuetify/lib/util/globals.mjs
 var IN_BROWSER = typeof window !== "undefined";
@@ -67,21 +67,18 @@ function _classApplyDescriptorGet(receiver, descriptor) {
 }
 function getNestedValue(obj, path, fallback) {
   const last = path.length - 1;
-  if (last < 0)
-    return obj === void 0 ? fallback : obj;
+  if (last < 0) return obj === void 0 ? fallback : obj;
   for (let i = 0; i < last; i++) {
     if (obj == null) {
       return fallback;
     }
     obj = obj[path[i]];
   }
-  if (obj == null)
-    return fallback;
+  if (obj == null) return fallback;
   return obj[path[last]] === void 0 ? fallback : obj[path[last]];
 }
 function deepEqual(a, b) {
-  if (a === b)
-    return true;
+  if (a === b) return true;
   if (a instanceof Date && b instanceof Date && a.getTime() !== b.getTime()) {
     return false;
   }
@@ -95,31 +92,23 @@ function deepEqual(a, b) {
   return props.every((p) => deepEqual(a[p], b[p]));
 }
 function getObjectValueByPath(obj, path, fallback) {
-  if (obj == null || !path || typeof path !== "string")
-    return fallback;
-  if (obj[path] !== void 0)
-    return obj[path];
+  if (obj == null || !path || typeof path !== "string") return fallback;
+  if (obj[path] !== void 0) return obj[path];
   path = path.replace(/\[(\w+)\]/g, ".$1");
   path = path.replace(/^\./, "");
   return getNestedValue(obj, path.split("."), fallback);
 }
 function getPropertyFromItem(item, property, fallback) {
-  if (property === true)
-    return item === void 0 ? fallback : item;
-  if (property == null || typeof property === "boolean")
-    return fallback;
+  if (property === true) return item === void 0 ? fallback : item;
+  if (property == null || typeof property === "boolean") return fallback;
   if (item !== Object(item)) {
-    if (typeof property !== "function")
-      return fallback;
+    if (typeof property !== "function") return fallback;
     const value2 = property(item, fallback);
     return typeof value2 === "undefined" ? fallback : value2;
   }
-  if (typeof property === "string")
-    return getObjectValueByPath(item, property, fallback);
-  if (Array.isArray(property))
-    return getNestedValue(item, property, fallback);
-  if (typeof property !== "function")
-    return fallback;
+  if (typeof property === "string") return getObjectValueByPath(item, property, fallback);
+  if (Array.isArray(property)) return getNestedValue(item, property, fallback);
+  if (typeof property !== "function") return fallback;
   const value = property(item, fallback);
   return typeof value === "undefined" ? fallback : value;
 }
@@ -294,16 +283,14 @@ function flattenFragments(nodes) {
 }
 function toKebabCase() {
   let str = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "";
-  if (toKebabCase.cache.has(str))
-    return toKebabCase.cache.get(str);
+  if (toKebabCase.cache.has(str)) return toKebabCase.cache.get(str);
   const kebab = str.replace(/[^a-z]/gi, "-").replace(/\B([A-Z])/g, "-$1").toLowerCase();
   toKebabCase.cache.set(str, kebab);
   return kebab;
 }
 toKebabCase.cache = /* @__PURE__ */ new Map();
 function findChildrenWithProvide(key, vnode) {
-  if (!vnode || typeof vnode !== "object")
-    return [];
+  if (!vnode || typeof vnode !== "object") return [];
   if (Array.isArray(vnode)) {
     return vnode.map((child) => findChildrenWithProvide(key, child)).flat(1);
   } else if (Array.isArray(vnode.children)) {
@@ -416,18 +403,15 @@ function focusChild(el, location) {
     (_d = focusable[location]) == null ? void 0 : _d.focus();
   } else {
     const _el = getNextElement(focusable, location);
-    if (_el)
-      _el.focus();
-    else
-      focusChild(el, location === "next" ? "first" : "last");
+    if (_el) _el.focus();
+    else focusChild(el, location === "next" ? "first" : "last");
   }
 }
 function noop() {
 }
 function matchesSelector(el, selector) {
   const supportsSelector = IN_BROWSER && typeof CSS !== "undefined" && typeof CSS.supports !== "undefined" && CSS.supports(`selector(${selector})`);
-  if (!supportsSelector)
-    return null;
+  if (!supportsSelector) return null;
   try {
     return !!el && el.matches(selector);
   } catch (err) {
@@ -449,10 +433,8 @@ function parseAnchor(anchor, isRtl) {
   };
 }
 function toPhysical(str, isRtl) {
-  if (str === "start")
-    return isRtl ? "right" : "left";
-  if (str === "end")
-    return isRtl ? "left" : "right";
+  if (str === "start") return isRtl ? "right" : "left";
+  if (str === "end") return isRtl ? "left" : "right";
   return str;
 }
 function flipSide(anchor) {
@@ -567,10 +549,9 @@ function nullifyTransforms(el) {
   }
 }
 function animate(el, keyframes, options) {
-  if (typeof el.animate === "undefined")
-    return {
-      finished: Promise.resolve()
-    };
+  if (typeof el.animate === "undefined") return {
+    finished: Promise.resolve()
+  };
   let animation;
   try {
     animation = el.animate(keyframes, options);
@@ -609,8 +590,7 @@ function bindProps(el, props) {
         el.addEventListener(name, props[k]);
         const _handler = handler || /* @__PURE__ */ new Set();
         _handler.add([name, props[k]]);
-        if (!handlers.has(el))
-          handlers.set(el, _handler);
+        if (!handlers.has(el)) handlers.set(el, _handler);
       }
     } else {
       if (props[k] == null) {
@@ -666,12 +646,9 @@ function APCAcontrast(text, background) {
   const Bbg = (background.b / 255) ** mainTRC;
   let Ytxt = Rtxt * Rco + Gtxt * Gco + Btxt * Bco;
   let Ybg = Rbg * Rco + Gbg * Gco + Bbg * Bco;
-  if (Ytxt <= blkThrs)
-    Ytxt += (blkThrs - Ytxt) ** blkClmp;
-  if (Ybg <= blkThrs)
-    Ybg += (blkThrs - Ybg) ** blkClmp;
-  if (Math.abs(Ybg - Ytxt) < deltaYmin)
-    return 0;
+  if (Ytxt <= blkThrs) Ytxt += (blkThrs - Ytxt) ** blkClmp;
+  if (Ybg <= blkThrs) Ybg += (blkThrs - Ybg) ** blkClmp;
+  if (Math.abs(Ybg - Ytxt) < deltaYmin) return 0;
   let outputContrast;
   if (Ybg > Ytxt) {
     const SAPC = (Ybg ** normBG - Ytxt ** normTXT) * scaleBoW;
@@ -862,13 +839,12 @@ function HSLtoRGB(hsla) {
   return HSVtoRGB(HSLtoHSV(hsla));
 }
 function RGBtoHSV(rgba) {
-  if (!rgba)
-    return {
-      h: 0,
-      s: 1,
-      v: 1,
-      a: 1
-    };
+  if (!rgba) return {
+    h: 0,
+    s: 1,
+    v: 1,
+    a: 1
+  };
   const r = rgba.r / 255;
   const g = rgba.g / 255;
   const b = rgba.b / 255;
@@ -884,8 +860,7 @@ function RGBtoHSV(rgba) {
       h2 = 60 * (4 + (r - g) / (max - min));
     }
   }
-  if (h2 < 0)
-    h2 = h2 + 360;
+  if (h2 < 0) h2 = h2 + 360;
   const s = max === 0 ? 0 : (max - min) / max;
   const hsv = [h2, s, max];
   return {
@@ -1059,8 +1034,7 @@ function defineComponent2(options) {
     options.props._as = String;
     options.setup = function setup(props, ctx) {
       const defaults = injectDefaults();
-      if (!defaults.value)
-        return options._setup(props, ctx);
+      if (!defaults.value) return options._setup(props, ctx);
       const {
         props: _props,
         provideSubDefaults
@@ -1108,17 +1082,14 @@ function createSimpleFunctional(klass) {
 // node_modules/vuetify/lib/util/dom.mjs
 function attachedRoot(node) {
   if (typeof node.getRootNode !== "function") {
-    while (node.parentNode)
-      node = node.parentNode;
-    if (node !== document)
-      return null;
+    while (node.parentNode) node = node.parentNode;
+    if (node !== document) return null;
     return document;
   }
   const root = node.getRootNode();
   if (root !== document && root.getRootNode({
     composed: true
-  }) !== document)
-    return null;
+  }) !== document) return null;
   return root;
 }
 
@@ -1144,8 +1115,7 @@ var _uid = 0;
 var _map = /* @__PURE__ */ new WeakMap();
 function getUid() {
   const vm = getCurrentInstance2("getUid");
-  if (_map.has(vm))
-    return _map.get(vm);
+  if (_map.has(vm)) return _map.get(vm);
   else {
     const uid = _uid++;
     _map.set(vm, uid);
@@ -1161,34 +1131,28 @@ getUid.reset = () => {
 function getScrollParent(el) {
   let includeHidden = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : false;
   while (el) {
-    if (includeHidden ? isPotentiallyScrollable(el) : hasScrollbar(el))
-      return el;
+    if (includeHidden ? isPotentiallyScrollable(el) : hasScrollbar(el)) return el;
     el = el.parentElement;
   }
   return document.scrollingElement;
 }
 function getScrollParents(el, stopAt) {
   const elements = [];
-  if (stopAt && el && !stopAt.contains(el))
-    return elements;
+  if (stopAt && el && !stopAt.contains(el)) return elements;
   while (el) {
-    if (hasScrollbar(el))
-      elements.push(el);
-    if (el === stopAt)
-      break;
+    if (hasScrollbar(el)) elements.push(el);
+    if (el === stopAt) break;
     el = el.parentElement;
   }
   return elements;
 }
 function hasScrollbar(el) {
-  if (!el || el.nodeType !== Node.ELEMENT_NODE)
-    return false;
+  if (!el || el.nodeType !== Node.ELEMENT_NODE) return false;
   const style = window.getComputedStyle(el);
   return style.overflowY === "scroll" || style.overflowY === "auto" && el.scrollHeight > el.clientHeight;
 }
 function isPotentiallyScrollable(el) {
-  if (!el || el.nodeType !== Node.ELEMENT_NODE)
-    return false;
+  if (!el || el.nodeType !== Node.ELEMENT_NODE) return false;
   const style = window.getComputedStyle(el);
   return ["scroll", "auto"].includes(style.overflowY);
 }
@@ -1229,8 +1193,7 @@ function createDefaults(options) {
 }
 function injectDefaults() {
   const defaults = inject(DefaultsSymbol);
-  if (!defaults)
-    throw new Error("[Vuetify] Could not find defaults instance");
+  if (!defaults) throw new Error("[Vuetify] Could not find defaults instance");
   return defaults;
 }
 function provideDefaults(defaults, options) {
@@ -1238,18 +1201,15 @@ function provideDefaults(defaults, options) {
   const providedDefaults = ref(defaults);
   const newDefaults = computed(() => {
     const disabled = unref(options == null ? void 0 : options.disabled);
-    if (disabled)
-      return injectedDefaults.value;
+    if (disabled) return injectedDefaults.value;
     const scoped = unref(options == null ? void 0 : options.scoped);
     const reset = unref(options == null ? void 0 : options.reset);
     const root = unref(options == null ? void 0 : options.root);
-    if (providedDefaults.value == null && !(scoped || reset || root))
-      return injectedDefaults.value;
+    if (providedDefaults.value == null && !(scoped || reset || root)) return injectedDefaults.value;
     let properties = mergeDeep(providedDefaults.value, {
       prev: injectedDefaults.value
     });
-    if (scoped)
-      return properties;
+    if (scoped) return properties;
     if (reset || root) {
       const len = Number(reset || Infinity);
       for (let i = 0; i <= len; i++) {
@@ -1491,15 +1451,13 @@ function createIcons(options) {
 }
 var useIcon = (props) => {
   const icons = inject(IconSymbol);
-  if (!icons)
-    throw new Error("Missing Vuetify Icons provide!");
+  if (!icons) throw new Error("Missing Vuetify Icons provide!");
   const iconData = computed(() => {
     var _a;
     const iconAlias = unref(props);
-    if (!iconAlias)
-      return {
-        component: VComponentIcon
-      };
+    if (!iconAlias) return {
+      component: VComponentIcon
+    };
     let icon = iconAlias;
     if (typeof icon === "string") {
       icon = icon.trim();
@@ -1507,8 +1465,7 @@ var useIcon = (props) => {
         icon = (_a = icons.aliases) == null ? void 0 : _a[icon.slice(1)];
       }
     }
-    if (!icon)
-      throw new Error(`Could not find aliased icon "${iconAlias}"`);
+    if (!icon) throw new Error(`Could not find aliased icon "${iconAlias}"`);
     if (Array.isArray(icon)) {
       return {
         component: VSvgIcon,
@@ -1633,4 +1590,4 @@ export {
   createIcons,
   useIcon
 };
-//# sourceMappingURL=chunk-SVPUEQ27.js.map
+//# sourceMappingURL=chunk-CKUB4MVB.js.map

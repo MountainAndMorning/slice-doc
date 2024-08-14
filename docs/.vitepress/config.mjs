@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: "/slice-doc/",
   title: "TIMESlice",
-  srcDir: 'docs',
   vite: {     // <=== insert this section
     ssr: {
       noExternal: ["vuetify"]

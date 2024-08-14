@@ -10,7 +10,7 @@ import {
   useLocale,
   useRtl,
   useTheme
-} from "./chunk-VH47EAGU.js";
+} from "./chunk-JUBTXS7C.js";
 import {
   DefaultsSymbol,
   IN_BROWSER,
@@ -23,11 +23,11 @@ import {
   mergeDeep,
   propsFactory,
   useDefaults
-} from "./chunk-SVPUEQ27.js";
+} from "./chunk-CKUB4MVB.js";
 import {
   nextTick,
   reactive
-} from "./chunk-G3CMYKT2.js";
+} from "./chunk-5K23BRP6.js";
 
 // node_modules/vuetify/lib/labs/date/adapters/vuetify.mjs
 var firstDay = {
@@ -223,10 +223,8 @@ function parseLocalDate(value) {
 }
 var _YYYMMDD = /([12]\d{3}-([1-9]|0[1-9]|1[0-2])-([1-9]|0[1-9]|[12]\d|3[01]))/;
 function date(value) {
-  if (value == null)
-    return /* @__PURE__ */ new Date();
-  if (value instanceof Date)
-    return value;
+  if (value == null) return /* @__PURE__ */ new Date();
+  if (value instanceof Date) return value;
   if (typeof value === "string") {
     let parsed;
     if (_YYYMMDD.test(value)) {
@@ -234,8 +232,7 @@ function date(value) {
     } else {
       parsed = Date.parse(value);
     }
-    if (!isNaN(parsed))
-      return new Date(parsed);
+    if (!isNaN(parsed)) return new Date(parsed);
   }
   return null;
 }
@@ -328,8 +325,7 @@ function isWithinRange(date2, range) {
   return isAfter(date2, range[0]) && isBefore(date2, range[1]);
 }
 function isValid(date2) {
-  if (!date2 || date2 == null)
-    return false;
+  if (!date2 || date2 == null) return false;
   const d = new Date(date2);
   return d instanceof Date && !isNaN(d.getTime());
 }

@@ -19,7 +19,7 @@ import {
   propsFactory,
   refElement,
   toKebabCase
-} from "./chunk-SVPUEQ27.js";
+} from "./chunk-CKUB4MVB.js";
 import {
   computed,
   effectScope,
@@ -38,7 +38,7 @@ import {
   toRefs,
   watch,
   watchEffect
-} from "./chunk-G3CMYKT2.js";
+} from "./chunk-5K23BRP6.js";
 
 // node_modules/vuetify/lib/composables/display.mjs
 var breakpoints = ["sm", "md", "lg", "xl", "xxl"];
@@ -158,8 +158,7 @@ function createDisplay(options, ssr) {
 }
 function useDisplay() {
   const display = inject(DisplaySymbol);
-  if (!display)
-    throw new Error("Could not find Vuetify display injection");
+  if (!display) throw new Error("Could not find Vuetify display injection");
   return display;
 }
 
@@ -481,14 +480,12 @@ function createLocale(options) {
 }
 function useLocale() {
   const locale = inject(LocaleSymbol);
-  if (!locale)
-    throw new Error("[Vuetify] Could not find injected locale instance");
+  if (!locale) throw new Error("[Vuetify] Could not find injected locale instance");
   return locale;
 }
 function provideLocale(props) {
   const locale = inject(LocaleSymbol);
-  if (!locale)
-    throw new Error("[Vuetify] Could not find injected locale instance");
+  if (!locale) throw new Error("[Vuetify] Could not find injected locale instance");
   const i18n = locale.provide(props);
   const rtl = provideRtl(i18n, locale.rtl, props);
   const data = {
@@ -518,8 +515,7 @@ function provideRtl(locale, rtl, props) {
 }
 function useRtl() {
   const locale = inject(LocaleSymbol);
-  if (!locale)
-    throw new Error("[Vuetify] Could not find injected rtl instance");
+  if (!locale) throw new Error("[Vuetify] Could not find injected rtl instance");
   return {
     isRtl: locale.isRtl,
     rtlClasses: locale.rtlClasses
@@ -616,11 +612,10 @@ var defaultThemeOptions = {
 function parseThemeOptions() {
   var _a, _b;
   let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : defaultThemeOptions;
-  if (!options)
-    return {
-      ...defaultThemeOptions,
-      isDisabled: true
-    };
+  if (!options) return {
+    ...defaultThemeOptions,
+    isDisabled: true
+  };
   const themes = {};
   for (const [key, theme] of Object.entries(options.themes ?? {})) {
     const defaultTheme = theme.dark || key === "dark" ? (_a = defaultThemeOptions.themes) == null ? void 0 : _a.dark : (_b = defaultThemeOptions.themes) == null ? void 0 : _b.light;
@@ -647,8 +642,7 @@ function createTheme(options) {
       if (parsedOptions.variations) {
         for (const name3 of parsedOptions.variations.colors) {
           const color = theme.colors[name3];
-          if (!color)
-            continue;
+          if (!color) continue;
           for (const variation of ["lighten", "darken"]) {
             const fn = variation === "lighten" ? lighten : darken;
             for (const amount of createRange(parsedOptions.variations[variation], 1)) {
@@ -658,8 +652,7 @@ function createTheme(options) {
         }
       }
       for (const color of Object.keys(theme.colors)) {
-        if (/^on-[a-z]/.test(color) || theme.colors[`on-${color}`])
-          continue;
+        if (/^on-[a-z]/.test(color) || theme.colors[`on-${color}`]) continue;
         const onColor = `on-${color}`;
         const colorVal = parseColor(theme.colors[color]);
         theme.colors[onColor] = getForeground(colorVal);
@@ -702,8 +695,7 @@ function createTheme(options) {
     };
   }
   function install(app) {
-    if (parsedOptions.isDisabled)
-      return;
+    if (parsedOptions.isDisabled) return;
     const head = app._context.provides.usehead;
     if (head) {
       if (head.push) {
@@ -727,13 +719,11 @@ function createTheme(options) {
           const el = document.createElement("style");
           el.type = "text/css";
           el.id = "vuetify-theme-stylesheet";
-          if (parsedOptions.cspNonce)
-            el.setAttribute("nonce", parsedOptions.cspNonce);
+          if (parsedOptions.cspNonce) el.setAttribute("nonce", parsedOptions.cspNonce);
           styleEl = el;
           document.head.appendChild(styleEl);
         }
-        if (styleEl)
-          styleEl.innerHTML = styles.value;
+        if (styleEl) styleEl.innerHTML = styles.value;
       };
       let styleEl = IN_BROWSER ? document.getElementById("vuetify-theme-stylesheet") : null;
       if (IN_BROWSER) {
@@ -764,8 +754,7 @@ function createTheme(options) {
 function provideTheme(props) {
   getCurrentInstance("provideTheme");
   const theme = inject(ThemeSymbol, null);
-  if (!theme)
-    throw new Error("Could not find Vuetify theme injection");
+  if (!theme) throw new Error("Could not find Vuetify theme injection");
   const name = computed(() => {
     return props.theme ?? theme.name.value;
   });
@@ -783,8 +772,7 @@ function provideTheme(props) {
 function useTheme() {
   getCurrentInstance("useTheme");
   const theme = inject(ThemeSymbol, null);
-  if (!theme)
-    throw new Error("Could not find Vuetify theme injection");
+  if (!theme) throw new Error("Could not find Vuetify theme injection");
   return theme;
 }
 function createCssClass(lines, selector, content) {
@@ -819,8 +807,7 @@ function useResizeObserver(callback) {
   if (IN_BROWSER) {
     const observer = new ResizeObserver((entries) => {
       callback == null ? void 0 : callback(entries, observer);
-      if (!entries.length)
-        return;
+      if (!entries.length) return;
       if (box === "content") {
         contentRect.value = entries[0].contentRect;
       } else {
@@ -835,8 +822,7 @@ function useResizeObserver(callback) {
         observer.unobserve(refElement(oldValue));
         contentRect.value = void 0;
       }
-      if (newValue)
-        observer.observe(refElement(newValue));
+      if (newValue) observer.observe(refElement(newValue));
     }, {
       flush: "post"
     });
@@ -870,8 +856,7 @@ var makeLayoutItemProps = propsFactory({
 }, "layout-item");
 function useLayout() {
   const layout = inject(VuetifyLayoutKey);
-  if (!layout)
-    throw new Error("[Vuetify] Could not find injected layout");
+  if (!layout) throw new Error("[Vuetify] Could not find injected layout");
   return {
     getLayoutItem: layout.getLayoutItem,
     mainRect: layout.mainRect,
@@ -880,8 +865,7 @@ function useLayout() {
 }
 function useLayoutItem(options) {
   const layout = inject(VuetifyLayoutKey);
-  if (!layout)
-    throw new Error("[Vuetify] Could not find injected layout");
+  if (!layout) throw new Error("[Vuetify] Could not find injected layout");
   const id = options.id ?? `layout-item-${getUid()}`;
   const vm = getCurrentInstance("useLayoutItem");
   provide(VuetifyLayoutItemKey, {
@@ -922,8 +906,7 @@ var generateLayers = (layout, positions, layoutSizes, activeItems) => {
     const position = positions.get(id);
     const amount = layoutSizes.get(id);
     const active = activeItems.get(id);
-    if (!position || !amount || !active)
-      continue;
+    if (!position || !amount || !active) continue;
     const layer = {
       ...previousLayer,
       [position.value]: parseInt(previousLayer[position.value], 10) + (active.value ? parseInt(amount.value, 10) : 0)
@@ -954,14 +937,12 @@ function createLayout(props) {
     const overlaps = props.overlaps ?? [];
     for (const overlap of overlaps.filter((item) => item.includes(":"))) {
       const [top, bottom] = overlap.split(":");
-      if (!registered.value.includes(top) || !registered.value.includes(bottom))
-        continue;
+      if (!registered.value.includes(top) || !registered.value.includes(bottom)) continue;
       const topPosition = positions.get(top);
       const bottomPosition = positions.get(bottom);
       const topAmount = layoutSizes.get(top);
       const bottomAmount = layoutSizes.get(bottom);
-      if (!topPosition || !bottomPosition || !topAmount || !bottomAmount)
-        continue;
+      if (!topPosition || !bottomPosition || !topAmount || !bottomAmount) continue;
       map.set(bottom, {
         position: topPosition.value,
         amount: parseInt(topAmount.value, 10)
@@ -1047,10 +1028,8 @@ function createLayout(props) {
       disableTransitions && disabledTransitions.set(id, disableTransitions);
       const instances = findChildrenWithProvide(VuetifyLayoutItemKey, rootVm == null ? void 0 : rootVm.vnode);
       const instanceIndex = instances.indexOf(vm);
-      if (instanceIndex > -1)
-        registered.value.splice(instanceIndex, 0, id);
-      else
-        registered.value.push(id);
+      if (instanceIndex > -1) registered.value.splice(instanceIndex, 0, id);
+      else registered.value.push(id);
       const index = computed(() => items.value.findIndex((i) => i.id === id));
       const zIndex = computed(() => rootZIndex.value + layers.value.length * 2 - index.value * 2);
       const layoutItemStyles = computed(() => {
@@ -1066,11 +1045,9 @@ function createLayout(props) {
             transition: "none"
           }
         };
-        if (!isMounted.value)
-          return styles;
+        if (!isMounted.value) return styles;
         const item = items.value[index.value];
-        if (!item)
-          throw new Error(`[Vuetify] Could not find layout item "${id}"`);
+        if (!item) throw new Error(`[Vuetify] Could not find layout item "${id}"`);
         const overlap = computedOverlaps.value.get(id);
         if (overlap) {
           item[overlap.position] += overlap.amount;
@@ -1151,4 +1128,4 @@ export {
   useLayoutItem,
   createLayout
 };
-//# sourceMappingURL=chunk-VH47EAGU.js.map
+//# sourceMappingURL=chunk-JUBTXS7C.js.map

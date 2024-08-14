@@ -1,7 +1,7 @@
 import {
   VSvgIcon
-} from "./chunk-SVPUEQ27.js";
-import "./chunk-G3CMYKT2.js";
+} from "./chunk-CKUB4MVB.js";
+import "./chunk-5K23BRP6.js";
 
 // node_modules/vuetify/lib/iconsets/mdi-svg.mjs
 var aliases = {
